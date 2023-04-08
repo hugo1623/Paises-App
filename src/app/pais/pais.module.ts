@@ -8,10 +8,6 @@ import { PorPaisComponent } from './pages/por-pais/por-pais.component';
 import { PorRegionComponent } from './pages/por-region/por-region.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 
-
-
-
-
 @NgModule({
   declarations: [
     PorCapialComponent,
