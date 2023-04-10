@@ -2,7 +2,8 @@
     <input  type="text" 
             name="termino"
             class="form-control"
-            [(ngModel)]="termino"   
+            [(ngModel)]="termino" 
+            (input)="teclaPrecionada()"  
             placeholder="buscar País"
     >
 </form>
