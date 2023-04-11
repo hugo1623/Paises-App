@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: '', component: PorPaisComponent, pathMatch:'full'},
   {path: 'region', component: PorRegionComponent},
   {path: 'capital', component: PorCapialComponent},
-  {path: 'pais/:id', component: VerPaisComponent},
+  {path: 'pais/:cca2', component: VerPaisComponent},
   {path: '**', redirectTo:''},
 ];
 @NgModule({

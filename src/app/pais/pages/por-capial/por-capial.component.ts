@@ -19,9 +19,9 @@ export class PorCapialComponent{
     this.hayError = false;
     this.termino = termino;
 
-    this.paisService.buscarCapital(this.termino)
+    this.paisService.buscarCapital(termino)
     .subscribe((paises) => {
-        console.log(paises);
+        // console.log(paises);
         this.paises = paises;
       }, (err) => {
         this.hayError = true;
