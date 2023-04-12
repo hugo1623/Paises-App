@@ -2,10 +2,7 @@
 <hr />
 <div class="row">
   <div class="col">
-    <app-pais-input 
-        (onEnter)="buscar($event)"
-        placeholder = "Buscar Capital ..."
-    >
+    <app-pais-input (onEnter)="buscar($event)" placeholder="Buscar Capital ...">
     </app-pais-input>
   </div>
 </div>
@@ -19,4 +16,3 @@
     <app-pais-tabla [paises]="paises"> </app-pais-tabla>
   </div>
 </div>
-
